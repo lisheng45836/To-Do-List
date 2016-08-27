@@ -1,0 +1,97 @@
+.all-lists{
+
+	list-style:none;
+	/*text-align: center;*/
+	padding: 0;
+	opacity: 0;
+
+}
+
+.notes{
+
+	list-style:none;
+	/*text-align: center;*/
+	padding: 0;
+	opacity: 0;
+
+}
+
+
+.visible{
+
+	opacity: 1;
+	transition: 1s;
+	pointer-events: auto;
+}
+
+.hidden{
+	opacity: 0.2;
+	transition: 1s;
+	pointer-events: none;
+}
+
+.completed{
+
+
+	text-decoration: line-through;
+	padding: 5px;
+}
+
+
+
+.list{
+
+	margin:  10px;
+	border-radius: 3px;
+}
+
+.t{
+
+	padding: 5px;
+
+}
+
+
+#showButton{
+
+	margin:  10px;
+}
+
+
+.pop{
+
+	margin-top: 50px;
+	margin-left: 1%;
+	position:fixed;
+	top:0;
+	z-index: 20;
+}
+.alert{
+	width: auto;
+	opacity: 0.8;
+
+}
+
+strong{
+	padding: 5px;
+}
+.create{
+
+	margin: 10px;
+}
+.addList{
+	margin: auto;
+    width: 50%;
+    text-align: center;
+    
+}
+.edit{
+
+}
+
+span{
+	margin-right: 10px;
+}
+
+/**/
+
